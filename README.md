@@ -1,7 +1,7 @@
 # HS2_FuckThe50Check
 This plugin bypasses the asset bundle filename less than 50 check.
 
-Without this, any mods (in the code using their 50 check) which have asset name more than 49.unity3d will not work, text, for example: aaa.unity3d files will also not work.
+Without this, any mods (in the code using their 50 check) which have asset name more than 49.unity3d will not work. Text names, for example: aaa.unity3d files will also not work.
 This plugin will disable the check by returning true every time, tricking the game into thinking the names are always less than 50.unity3d
 
 **Download:**  
